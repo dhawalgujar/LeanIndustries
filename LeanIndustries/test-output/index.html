@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-LeanIndustries" class="navigator-link">
+              <span class="suite-name border-passed">LeanIndustries</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-LeanIndustries" class="navigator-link ">
+                    <span>C:\Users\mamaa\eclipse-workspaces\LeanIndustries\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-LeanIndustries" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-LeanIndustries" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-LeanIndustries" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-LeanIndustries" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-LeanIndustries" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-LeanIndustries" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-LeanIndustries" class="hide-methods passed suite-LeanIndustries"> (hide)</a> <!-- hide-methods passed suite-LeanIndustries -->
+                      <a href="#" panel-name="suite-LeanIndustries" class="show-methods passed suite-LeanIndustries"> (show)</a> <!-- show-methods passed suite-LeanIndustries -->
+                    </span>
+                    <div class="method-list-content passed suite-LeanIndustries">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LeanIndustries" title="SeleniumAutomatedTest.LeanIndustries.AjaxDropdown" class="method navigator-link" hash-for-method="testAjaxDropdown">testAjaxDropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LeanIndustries" title="SeleniumAutomatedTest.LeanIndustries.ElementSelection" class="method navigator-link" hash-for-method="testCheckboxes">testCheckboxes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LeanIndustries" title="SeleniumAutomatedTest.LeanIndustries.ElementSelection" class="method navigator-link" hash-for-method="testEnterDate">testEnterDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LeanIndustries" title="SeleniumAutomatedTest.LeanIndustries.ElementSelection" class="method navigator-link" hash-for-method="testInputText">testInputText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LeanIndustries" title="SeleniumAutomatedTest.LeanIndustries.ElementSelection" class="method navigator-link" hash-for-method="testRadioButtons">testRadioButtons</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LeanIndustries" title="SeleniumAutomatedTest.LeanIndustries.ElementSelection" class="method navigator-link" hash-for-method="testSelectOneMenu">testSelectOneMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LeanIndustries" title="SeleniumAutomatedTest.LeanIndustries.DataTable" class="method navigator-link" hash-for-method="testSelectRadioButtonInGrid">testSelectRadioButtonInGrid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-LeanIndustries -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-LeanIndustries" class="panel LeanIndustries">
+          <div class="suite-LeanIndustries-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SeleniumAutomatedTest.LeanIndustries.DataTable</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectRadioButtonInGrid">
+                  </a> <!-- testSelectRadioButtonInGrid -->
+                  <span class="method-name">testSelectRadioButtonInGrid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LeanIndustries-class-passed -->
+          <div class="suite-LeanIndustries-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SeleniumAutomatedTest.LeanIndustries.AjaxDropdown</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAjaxDropdown">
+                  </a> <!-- testAjaxDropdown -->
+                  <span class="method-name">testAjaxDropdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LeanIndustries-class-passed -->
+          <div class="suite-LeanIndustries-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SeleniumAutomatedTest.LeanIndustries.ElementSelection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckboxes">
+                  </a> <!-- testCheckboxes -->
+                  <span class="method-name">testCheckboxes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEnterDate">
+                  </a> <!-- testEnterDate -->
+                  <span class="method-name">testEnterDate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInputText">
+                  </a> <!-- testInputText -->
+                  <span class="method-name">testInputText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRadioButtons">
+                  </a> <!-- testRadioButtons -->
+                  <span class="method-name">testRadioButtons</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectOneMenu">
+                  </a> <!-- testSelectOneMenu -->
+                  <span class="method-name">testSelectOneMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LeanIndustries-class-passed -->
+        </div> <!-- panel LeanIndustries -->
+        <div panel-name="test-xml-LeanIndustries" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\mamaa\eclipse-workspaces\LeanIndustries\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;LeanIndustries&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ElementSelection&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;SeleniumAutomatedTest.LeanIndustries.ElementSelection&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ElementSelection --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;AjaxDriopdown&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;SeleniumAutomatedTest.LeanIndustries.AjaxDropdown&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AjaxDriopdown --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;DataTable&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;SeleniumAutomatedTest.LeanIndustries.DataTable&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DataTable --&gt;
+&lt;/suite&gt; &lt;!-- LeanIndustries --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-LeanIndustries" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for LeanIndustries</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ElementSelection (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AjaxDriopdown (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DataTable (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-LeanIndustries" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for LeanIndustries</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-LeanIndustries" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for LeanIndustries</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_LeanIndustries');
+function tableData_LeanIndustries() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testAjaxDropdown')
+data.setCell(0, 2, 'SeleniumAutomatedTest.LeanIndustries.AjaxDropdown')
+data.setCell(0, 3, 6988);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testSelectOneMenu')
+data.setCell(1, 2, 'SeleniumAutomatedTest.LeanIndustries.ElementSelection')
+data.setCell(1, 3, 5432);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testInputText')
+data.setCell(2, 2, 'SeleniumAutomatedTest.LeanIndustries.ElementSelection')
+data.setCell(2, 3, 1136);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testSelectRadioButtonInGrid')
+data.setCell(3, 2, 'SeleniumAutomatedTest.LeanIndustries.DataTable')
+data.setCell(3, 3, 417);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testEnterDate')
+data.setCell(4, 2, 'SeleniumAutomatedTest.LeanIndustries.ElementSelection')
+data.setCell(4, 3, 360);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testCheckboxes')
+data.setCell(5, 2, 'SeleniumAutomatedTest.LeanIndustries.ElementSelection')
+data.setCell(5, 3, 150);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testRadioButtons')
+data.setCell(6, 2, 'SeleniumAutomatedTest.LeanIndustries.ElementSelection')
+data.setCell(6, 3, 132);
+window.suiteTableData['LeanIndustries']= { tableData: data, tableDiv: 'times-div-LeanIndustries'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <div id="times-div-LeanIndustries">
+              </div> <!-- times-div-LeanIndustries -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-LeanIndustries" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for LeanIndustries</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-LeanIndustries" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-LeanIndustries" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumAutomatedTest.LeanIndustries.ElementSelection</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">loadbrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testInputText</span>
+                <span class="method-start">6903 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCheckboxes</span>
+                <span class="method-start">8052 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRadioButtons</span>
+                <span class="method-start">8208 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSelectOneMenu</span>
+                <span class="method-start">8348 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testEnterDate</span>
+                <span class="method-start">13786 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumAutomatedTest.LeanIndustries.AjaxDropdown</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">loadbrowser</span>
+                <span class="method-start">14284 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testAjaxDropdown</span>
+                <span class="method-start">22886 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumAutomatedTest.LeanIndustries.DataTable</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">loadbrowser</span>
+                <span class="method-start">29942 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testSelectRadioButtonInGrid</span>
+                <span class="method-start">37933 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

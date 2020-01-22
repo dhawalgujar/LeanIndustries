@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-01-21T20:08:02 GMT-05:00" name="LeanIndustries" finished-at="2020-01-21T20:08:40 GMT-05:00" duration-ms="38362">
+    <groups>
+    </groups>
+    <test started-at="2020-01-21T20:08:02 GMT-05:00" name="ElementSelection" finished-at="2020-01-21T20:08:16 GMT-05:00" duration-ms="14164">
+      <class name="SeleniumAutomatedTest.LeanIndustries.ElementSelection">
+        <test-method is-config="true" signature="loadbrowser()[pri:0, instance:SeleniumAutomatedTest.LeanIndustries.ElementSelection@18ce0030]" started-at="2020-01-21T20:08:02 GMT-05:00" name="loadbrowser" finished-at="2020-01-21T20:08:08 GMT-05:00" duration-ms="6865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadbrowser -->
+        <test-method signature="testInputText()[pri:1, instance:SeleniumAutomatedTest.LeanIndustries.ElementSelection@18ce0030]" started-at="2020-01-21T20:08:08 GMT-05:00" name="testInputText" finished-at="2020-01-21T20:08:10 GMT-05:00" duration-ms="1136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputText -->
+        <test-method signature="testCheckboxes()[pri:2, instance:SeleniumAutomatedTest.LeanIndustries.ElementSelection@18ce0030]" started-at="2020-01-21T20:08:10 GMT-05:00" name="testCheckboxes" finished-at="2020-01-21T20:08:10 GMT-05:00" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckboxes -->
+        <test-method signature="testRadioButtons()[pri:3, instance:SeleniumAutomatedTest.LeanIndustries.ElementSelection@18ce0030]" started-at="2020-01-21T20:08:10 GMT-05:00" name="testRadioButtons" finished-at="2020-01-21T20:08:10 GMT-05:00" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRadioButtons -->
+        <test-method signature="testSelectOneMenu()[pri:4, instance:SeleniumAutomatedTest.LeanIndustries.ElementSelection@18ce0030]" started-at="2020-01-21T20:08:10 GMT-05:00" name="testSelectOneMenu" finished-at="2020-01-21T20:08:15 GMT-05:00" duration-ms="5432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectOneMenu -->
+        <test-method signature="testEnterDate()[pri:5, instance:SeleniumAutomatedTest.LeanIndustries.ElementSelection@18ce0030]" started-at="2020-01-21T20:08:15 GMT-05:00" name="testEnterDate" finished-at="2020-01-21T20:08:16 GMT-05:00" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEnterDate -->
+      </class> <!-- SeleniumAutomatedTest.LeanIndustries.ElementSelection -->
+    </test> <!-- ElementSelection -->
+    <test started-at="2020-01-21T20:08:16 GMT-05:00" name="AjaxDriopdown" finished-at="2020-01-21T20:08:31 GMT-05:00" duration-ms="15594">
+      <class name="SeleniumAutomatedTest.LeanIndustries.AjaxDropdown">
+        <test-method is-config="true" signature="loadbrowser()[pri:0, instance:SeleniumAutomatedTest.LeanIndustries.AjaxDropdown@5ccddd20]" started-at="2020-01-21T20:08:16 GMT-05:00" name="loadbrowser" finished-at="2020-01-21T20:08:24 GMT-05:00" duration-ms="8601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadbrowser -->
+        <test-method signature="testAjaxDropdown()[pri:0, instance:SeleniumAutomatedTest.LeanIndustries.AjaxDropdown@5ccddd20]" started-at="2020-01-21T20:08:24 GMT-05:00" name="testAjaxDropdown" finished-at="2020-01-21T20:08:31 GMT-05:00" duration-ms="6988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAjaxDropdown -->
+      </class> <!-- SeleniumAutomatedTest.LeanIndustries.AjaxDropdown -->
+    </test> <!-- AjaxDriopdown -->
+    <test started-at="2020-01-21T20:08:31 GMT-05:00" name="DataTable" finished-at="2020-01-21T20:08:40 GMT-05:00" duration-ms="8410">
+      <class name="SeleniumAutomatedTest.LeanIndustries.DataTable">
+        <test-method is-config="true" signature="loadbrowser()[pri:0, instance:SeleniumAutomatedTest.LeanIndustries.DataTable@60d8c9b7]" started-at="2020-01-21T20:08:31 GMT-05:00" name="loadbrowser" finished-at="2020-01-21T20:08:39 GMT-05:00" duration-ms="7990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadbrowser -->
+        <test-method signature="testSelectRadioButtonInGrid()[pri:0, instance:SeleniumAutomatedTest.LeanIndustries.DataTable@60d8c9b7]" started-at="2020-01-21T20:08:39 GMT-05:00" name="testSelectRadioButtonInGrid" finished-at="2020-01-21T20:08:40 GMT-05:00" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectRadioButtonInGrid -->
+      </class> <!-- SeleniumAutomatedTest.LeanIndustries.DataTable -->
+    </test> <!-- DataTable -->
+  </suite> <!-- LeanIndustries -->
+</testng-results>
